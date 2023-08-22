@@ -1,0 +1,30 @@
+.blog-content{
+    height: 150px;
+    /* background-color: rgb(233, 133, 133); */
+    display: flex;
+    margin-top: 32px;
+    padding: 9px;
+    background: url(/wallpaper1.png);
+    
+}
+.blog-content-left{
+    font-family: var(--font1);
+    text-align: center;
+    padding-bottom: 14px;
+}
+.blog-content-left p{
+   
+    text-align: left;
+}
+.blog-content-left h1{
+    margin-bottom: 7px;
+
+}
+.row{
+    display: flex;
+    flex-direction: row;
+}
+.more-post{
+    flex-direction: column;
+    align-items: center;
+}

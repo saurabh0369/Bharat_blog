@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="util.css">
+    <link rel="stylesheet" href="contact.css">
+    <link rel="stylesheet" href="responsive.css">
+    <link rel="shortcut icon" href="icon.jpg" type="image/x-icon">
+    <script src="coupon.js"></script>
+    <title>BharatBlog: Contact Us</title>
+</head>
+
+<body>
+    <nav class="navigation max-width-1 m-auto my-2">
+        <div class="nav-left">
+            <a href="index.html"> <span class="Bharat">BharatBlog</span></a>
+            <span class="B-logo"> <a href="index.html"><img src="icon.jpg" alt="BharatBlog" ></a> </span>
+            <ul>
+                <li><a href="index.html">Home </a></li>
+                <li><a href="blog.html"> About </a></li>
+                <li><a href="create.html">Create </a></li>
+                <li><a href="contact.html">Contact </a></li>
+             
+            </ul>
+        </div>
+        <div class="nav-right">
+            <form action="search.html" method="get">
+                <input type="text" placeholder="Article Search" class="form-input" name="query">
+            <button class="btn">Search</button>
+            </form>
+        </div>
+    </nav>
+
+   <div class="contact-content font1 m-auto max-width-1 ">
+    <div class="max-width-1 m-auto"><hr><br><br></div>
+    <h2>Contact Us</h2>
+    <div class="contact-form">
+       <div class="form-box contact-form-input">
+        <input type="text" placeholder="Enter Your Name">
+       </div>
+       <div class="form-box contact-form-input">
+        <input type="text" placeholder="Enter Your Email">
+       </div>
+       <div class="form-box contact-form-input">
+        <input type="text" placeholder="Enter Your Phone Number">
+       </div>
+       <div class="form-box contact-form-input">
+        <textarea name="" id="" cols="30" rows="10" placeholder="How may I help you?"></textarea>
+       </div>
+       <button class="btn" onclick="load()">Submit</button>
+    </div>
+   </div>
+    <div class="footer my-2">
+<p>Copyright &copy; BharatBlog.com</p>
+    </div>
+    <script>
+        function load(){
+            alert("Your details successfully submitted");
+        }
+    </script>
+</body>
+
+</html>

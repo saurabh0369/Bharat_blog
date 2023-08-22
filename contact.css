@@ -1,0 +1,28 @@
+.form-input  {
+    padding: 0px 5px;
+    font-size: 16px;
+    border: solid 2px black;
+    border-radius: 4px;
+    margin: 0 13px;
+}
+
+.form-box input,textarea{
+    width: 44vw;
+    padding:10px 6px ;
+    margin: 7px 0px;
+    font-size: 18px;
+    font-family: var(--font1);
+    border: 2px solid navy;
+    border-radius: 5px;
+}
+.contact-content {
+    height: 100vh;
+    /* background-color: rgb(233, 133, 133); */
+    /* display: flex; */
+    margin-top: 22px;
+    padding: 9px;
+    /* background: url(/wallpaper.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%; */
+    }

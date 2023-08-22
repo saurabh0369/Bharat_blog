@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BharatBlog: Create Here</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="util.css">
+    <link rel="stylesheet" href="responsive.css">
+    <link rel="stylesheet" href="contact.css">
+    <link rel="shortcut icon" href="icon.jpg" type="image/x-icon">
+</head>
+<body>
+    <nav class="navigation max-width-1 m-auto my-2">
+        <div class="nav-left">
+            <a href="index.html"> <span class="Bharat">BharatBlog</span></a>
+            <span class="B-logo"> <a href="index.html"><img src="icon.jpg" alt="BharatBlog" ></a> </span>
+            <ul>
+                <li><a href="index.html">Home </a></li>
+                <li><a href="blog.html"> About </a></li>
+                <li><a href="Create.html">Create </a></li>
+                <li><a href="contact.html">Contact </a></li>
+             
+            </ul>
+        </div>
+        <div class="nav-right">
+            <form action="/search.html" method="get">
+                <input type="text" placeholder="Article Search" class="form-input" name="query">
+            <button class="btn">Search</button>
+            </form>
+        </div>
+    </nav>
+    <div class="max-width-1 m-auto"><hr></div>
+
+
+  <div class="create-content">
+    <div class="create-form ">
+        <input type="text" placeholder="Heading">
+      </div> 
+      <div class="create-form input1">
+        <input placeholder="Write Your Blog Here ">
+      </div> 
+      <button class="btn" onclick="load()">Submit</button>
+    
+  </div>
+
+
+
+    <div class="footer my-2">
+        <p>Copyright &copy; BharatBlog.com</p>
+            </div>
+            <script>
+                function load(){
+                    alert("Your post successfully submitted");
+                }
+            </script>
+</body>
+</html>
